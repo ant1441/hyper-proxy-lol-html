@@ -1,0 +1,16 @@
+[package]
+name = "rewrite-proxy"
+version = "0.1.0"
+authors = ["adam"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+futures = { version = "0.3", features = ["compat"] }
+hyper = "0.12.35"
+hyper-tls = "0.3.2"
+lol_html = { version = "0.1" }
+log = "0.4.8"
+env_logger = "0.7.1"
+flate2 = "1.0.13"
