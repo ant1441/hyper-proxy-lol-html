@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 futures = { version = "0.3", features = ["compat"] }
-hyper = "0.12.35"
+hyper = "0.14.10"
 hyper-tls = "0.3.2"
 lol_html = { version = "0.1" }
 log = "0.4.8"
